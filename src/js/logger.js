@@ -7,7 +7,7 @@ export default class Logger {
 
     static addLog(message) {
         if(Logger.loggerEnabled && message) {
-            console.log(message);
+            console.log('%c QCC ', 'background: #a50000; color: #bbbbbb', message);
         }
     }
 }
