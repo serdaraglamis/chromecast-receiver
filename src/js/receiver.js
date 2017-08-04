@@ -21,7 +21,7 @@ class Receiver {
     playerReady_ = false;
     metadataLoaded_ = false;
 
-    // İlk başta element gelmeme durumu ile ilgili kontrol yapılması TODO
+    // Check if element exists initially TODO
     constructor(element, config) {
         this.appConfig = config;
         Logger.addLog('castPlayer');
